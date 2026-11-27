@@ -1,0 +1,18 @@
+# Secrets
+.env
+smtp_password.txt
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+
+# Local backups
+docker-compose.backup.yml
