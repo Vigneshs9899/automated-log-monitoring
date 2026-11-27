@@ -135,3 +135,28 @@ Before starting Docker Compose:
 **Important:** Never upload `smtp_password.txt` to GitHub. It is already excluded through `.gitignore`.
 
 Use your own Gmail SMTP configuration in `monitoring/alertmanager.yml`.
+
+
+## Project Screenshots
+
+### Grafana Monitoring Dashboard
+
+![Grafana Dashboard](screenshots/grafana-dashboard.png)
+
+### Prometheus Alert Rules
+
+![Prometheus Alerts](screenshots/prometheus-alerts.png)
+
+### Alertmanager Email Notifications
+
+**Firing Alert**
+
+![Firing Notification](screenshots/email-alert-firing.png)
+
+**Resolved Alert**
+
+![Resolved Notification](screenshots/email-alert-resolved.png)
+
+### Self-Healing Recovery
+
+![Self-Healing Recovery](screenshots/self-healing-recovery.png)
